@@ -1,0 +1,40 @@
+[versions]
+agp = "8.2.0-alpha10"
+kotlin = "1.8.21"
+core-ktx = "1.10.1"
+appcompat = "1.6.1"
+cardview = "1.0.0"
+browser = "1.5.0"
+core-splashscreen = "1.0.1"
+material = "1.9.0"
+okhttp = "5.0.0-alpha.11"
+json = "2.10.1"
+coroutines-core = "1.7.1"
+coroutines-android = "1.7.1"
+glide = "4.15.1"
+swiperefreshlayout = "1.1.0"
+security-crypto-ktx = "1.1.0-alpha06"
+customactivityoncrash = "2.4.0"
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+browser = { group = "androidx.browser", name = "browser", version.ref = "browser" }
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "core-splashscreen" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+json = { group = "com.google.code.gson", name = "gson", version.ref = "json" }
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines-core" }
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines-android" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+security-crypto-ktx = { group = "androidx.security", name = "security-crypto-ktx", version.ref = "security-crypto-ktx" }
+customactivityoncrash = { group = "cat.ereza", name = "customactivityoncrash", version.ref = "customactivityoncrash" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[bundles]
+
