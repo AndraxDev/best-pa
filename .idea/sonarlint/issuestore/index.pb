@@ -29,9 +29,15 @@ P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 m
 =app/src/main/java/org/eu/best/pa/ui/fragments/HomeFragment.kt,d\1\d14b384acf90f09fc782a91d76aed8f963a16eaa
-l
-<app/src/main/java/org/eu/best/pa/ui/fragments/LBGFragment.kt,1\b\1bc3f50af81cc023ea6464f1362332f6a86f660c
 n
 >app/src/main/java/org/eu/best/pa/ui/fragments/TasksFragment.kt,f\6\f69c1b1d7706a8d2b7e88b6ebf7ca3945be0aeb1
 o
 ?app/src/main/java/org/eu/best/pa/ui/fragments/DrawerFragment.kt,3\8\3847b07604c8639a7d1da6454f5ee7e51f3d7fea
+Z
+*app/src/main/java/org/eu/best/pa/Config.kt,5\9\593474834654834f19558746ba2454dd71a73588
+c
+3app/src/main/java/org/eu/best/pa/ui/MainActivity.kt,7\d\7db0c60d64778a8d25520a73395e2d3e0f785b01
+p
+@app/src/main/java/org/eu/best/pa/ui/fragments/AccountFragment.kt,7\d\7dfce70a1015fa64a4eea28df7600826460e714a
+l
+<app/src/main/java/org/eu/best/pa/ui/fragments/LBGFragment.kt,1\b\1bc3f50af81cc023ea6464f1362332f6a86f660c

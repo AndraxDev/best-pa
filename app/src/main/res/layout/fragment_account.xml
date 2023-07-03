@@ -79,23 +79,23 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="2dp"
                 android:layout_marginEnd="24dp"
                 android:orientation="horizontal"
                 android:weightSum="3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/account_name">
+                app:layout_constraintTop_toBottomOf="@+id/row_personal_info">
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_top_left_corner"
+                    android:background="@drawable/table_center"
                     android:gravity="start|center_vertical"
                     android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
 
                     <TextView
@@ -109,11 +109,11 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="2dp"
                     android:layout_weight="2"
-                    android:background="@drawable/table_top_right_corner"
-                    android:orientation="vertical"
+                    android:background="@drawable/table_center"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_birthday"
@@ -144,7 +144,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
 
                     <TextView
@@ -162,7 +162,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
 
                     <TextView
@@ -191,11 +191,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_center"
-                    android:orientation="vertical"
+                    android:background="@drawable/table_bottom_left_corner"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
 
                     <TextView
@@ -209,11 +209,11 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="2dp"
                     android:layout_weight="2"
-                    android:background="@drawable/table_center"
-                    android:orientation="vertical"
+                    android:background="@drawable/table_bottom_right_corner"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
 
                     <TextView
@@ -235,17 +235,17 @@
                 android:weightSum="3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/row_nationality">
+                app:layout_constraintTop_toBottomOf="@+id/row_student_status">
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_center"
-                    android:orientation="vertical"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
 
                     <TextView
@@ -260,10 +260,10 @@
                     android:layout_marginLeft="2dp"
                     android:layout_weight="2"
                     android:background="@drawable/table_center"
-                    android:orientation="vertical"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_lbg"
@@ -294,7 +294,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -311,7 +311,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_student_id"
@@ -338,11 +338,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_center"
-                    android:orientation="vertical"
+                    android:background="@drawable/table_bottom_left_corner"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -355,11 +355,11 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="2dp"
                     android:layout_weight="2"
-                    android:background="@drawable/table_center"
-                    android:orientation="vertical"
+                    android:background="@drawable/table_bottom_right_corner"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_student_until"
@@ -380,17 +380,17 @@
                 android:weightSum="3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/row_student_until">
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_center"
-                    android:orientation="vertical"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -404,10 +404,10 @@
                     android:layout_marginLeft="2dp"
                     android:layout_weight="2"
                     android:background="@drawable/table_center"
-                    android:orientation="vertical"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_phone"
@@ -438,7 +438,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -455,7 +455,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_best_email"
@@ -486,7 +486,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -503,7 +503,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_email"
@@ -534,7 +534,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -551,7 +551,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_other_email"
@@ -582,7 +582,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -599,7 +599,7 @@
                     android:orientation="vertical"
                     android:gravity="start|center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_other_contacts"
@@ -616,10 +616,8 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginEnd="24dp"
-                android:layout_marginBottom="24dp"
                 android:orientation="horizontal"
                 android:weightSum="3"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/row_other_contacts">
@@ -629,10 +627,10 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_bottom_left_corner"
-                    android:orientation="vertical"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -646,10 +644,10 @@
                     android:layout_marginLeft="2dp"
                     android:layout_weight="2"
                     android:background="@drawable/table_bottom_right_corner"
-                    android:orientation="vertical"
                     android:gravity="start|center_vertical"
+                    android:orientation="vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="16dp">
 
                     <TextView
                         android:id="@+id/text_website"
@@ -657,6 +655,90 @@
                         android:layout_height="wrap_content"
                         android:textIsSelectable="true" />
                 </LinearLayout>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button"
+                android:id="@+id/btn_reimbursements"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp"
+                android:text="Reimbursements"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row_site" />
+
+            <LinearLayout
+                android:id="@+id/row_personal_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/table_header"
+                android:orientation="vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/account_name">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Personal information"
+                    android:textColor="@color/window_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row_student_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/table_header"
+                android:orientation="vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row_nationality">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student status"
+                    android:textColor="@color/window_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/table_header"
+                android:orientation="vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row_student_until">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact information"
+                    android:textColor="@color/window_background" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

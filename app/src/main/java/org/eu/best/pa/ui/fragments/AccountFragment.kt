@@ -19,19 +19,17 @@ import android.widget.ImageButton
 import android.widget.TextView
 
 import androidx.fragment.app.Fragment
+import com.google.android.material.button.MaterialButton
 import org.eu.best.pa.Config
 
 import org.eu.best.pa.R
 import org.eu.best.pa.ui.LoginActivity
 import org.eu.best.pa.ui.MainActivity
-import org.w3c.dom.Text
 
 class AccountFragment : Fragment() {
 
     companion object {
-        const val BASE_URL = "${Config.PA_URL}${Config.PA_WELCOME}"
         const val PROFILE_URL = "${Config.PA_URL}${Config.PA_PROFILE}"
-
         const val STATE_LOAD_ICON = 0
         const val STATE_LOAD_NAME = 1
     }
@@ -52,6 +50,7 @@ class AccountFragment : Fragment() {
     private var textOtherEmail: TextView? = null
     private var textOtherContacts: TextView? = null
     private var textWebsite: TextView? = null
+    private var btnReimbursements: MaterialButton? = null
 
     private var loadState = STATE_LOAD_ICON
 
@@ -164,6 +163,7 @@ class AccountFragment : Fragment() {
         textOtherEmail = view.findViewById(R.id.text_other_email)
         textOtherContacts = view.findViewById(R.id.text_other_contacts)
         textWebsite = view.findViewById(R.id.text_website)
+        btnReimbursements = view.findViewById(R.id.btn_reimbursements)
 
         btnMenu?.setImageResource(R.drawable.ic_menu)
 
@@ -189,12 +189,8 @@ class AccountFragment : Fragment() {
                 val cookieManager: CookieManager = CookieManager.getInstance()
                 cookieManager.setAcceptCookie(true)
                 CookieManager.getInstance().flush()
-                // profileIcon?.loadUrl("javascript:window.HTMLOUT.processHTML('<html>'+document.getElementsByTagName('html')[0].innerHTML+'</html>');")
-                // profileIcon?.loadUrl("javascript:window.HTMLOUT.getProfileIcon(document.getElementsByClassName('img-profile')[0].src);")
             }
         }
-
-        // profileIcon?.loadUrl(PROFILE_URL)
 
         profileIcon?.setOnTouchListener { _, event -> event.action == MotionEvent.ACTION_MOVE }
 
