@@ -421,6 +421,26 @@ class DrawerFragment : Fragment() {
     }
 
     private fun closeDrawer() {
+        TransitionManager.beginDelayedTransition(drawerOrganization!!, AutoTransition())
+        organizationViewExpanded?.visibility = View.GONE
+        organizationArrow?.setBackgroundResource(R.drawable.ic_closed_arrow)
+
+        TransitionManager.beginDelayedTransition(drawerEvents!!, AutoTransition())
+        eventsViewExpanded?.visibility = View.GONE
+        eventsArrow?.setBackgroundResource(R.drawable.ic_closed_arrow)
+
+        TransitionManager.beginDelayedTransition(drawerTools!!, AutoTransition())
+        toolsViewExpanded?.visibility = View.GONE
+        toolsArrow?.setBackgroundResource(R.drawable.ic_closed_arrow)
+
+        TransitionManager.beginDelayedTransition(drawerKnowledge!!, AutoTransition())
+        knowledgeViewExpanded?.visibility = View.GONE
+        knowledgeArrow?.setBackgroundResource(R.drawable.ic_closed_arrow)
+
+        TransitionManager.beginDelayedTransition(drawerCommunication!!, AutoTransition())
+        communicationViewExpanded?.visibility = View.GONE
+        communicationArrow?.setBackgroundResource(R.drawable.ic_closed_arrow)
+
         val parentActivity = requireActivity()
 
         if (parentActivity is MainActivity) {

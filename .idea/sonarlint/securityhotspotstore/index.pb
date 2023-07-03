@@ -17,8 +17,6 @@ f
 6app/src/main/java/org/eu/best/pa/util/Authenticator.kt,f\e\fe3a8472b6a14c70ae87e2827ef99f1aa007cc2f
 W
 'app/src/main/java/org/eu/best/pa/App.kt,b\6\b674cd1fb0a89a7768868fc6ca0ca36b0ecf2ccc
-Z
-*app/src/main/java/org/eu/best/pa/Config.kt,5\9\593474834654834f19558746ba2454dd71a73588
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 I
@@ -29,3 +27,11 @@ d
 4app/src/main/java/org/teslasoft/core/CrashHandler.kt,5\e\5e3eef9496e0832bace4c68cd0159527f45f3c66
 d
 4app/src/main/java/org/eu/best/pa/ui/LoginActivity.kt,9\1\913baa67cb16a2fd20f6f0b9199170d68f615bae
+m
+=app/src/main/java/org/eu/best/pa/ui/fragments/HomeFragment.kt,d\1\d14b384acf90f09fc782a91d76aed8f963a16eaa
+l
+<app/src/main/java/org/eu/best/pa/ui/fragments/LBGFragment.kt,1\b\1bc3f50af81cc023ea6464f1362332f6a86f660c
+n
+>app/src/main/java/org/eu/best/pa/ui/fragments/TasksFragment.kt,f\6\f69c1b1d7706a8d2b7e88b6ebf7ca3945be0aeb1
+o
+?app/src/main/java/org/eu/best/pa/ui/fragments/DrawerFragment.kt,3\8\3847b07604c8639a7d1da6454f5ee7e51f3d7fea

@@ -119,7 +119,7 @@ class MainActivity : FragmentActivity() {
     private fun initializeLogic() {
         actionParser?.settings?.javaScriptEnabled = true
         actionParser?.settings?.domStorageEnabled = true
-        actionParser?.addJavascriptInterface(this, "HTMLOUT");
+        actionParser?.addJavascriptInterface(this, "HTMLOUT")
         actionParser?.webViewClient = object : WebViewClient() {
             override fun onPageFinished(view: WebView, url: String) {
                 val cookieManager: CookieManager = CookieManager.getInstance()
